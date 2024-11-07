@@ -5,7 +5,7 @@ const Herosection = () => {
     return (<>
         <section className="relative h-screen bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: `url(${hero})` }}>
             <div className="absolute w-full pt-3 px-20 top-0 md:block hidden">
-                <Contact/>
+                <Contact />
             </div>
             <div className="absolute w-full md:pt-10 md:px-20  md:top-[2%] top-2">
                 <Navbar />
@@ -19,15 +19,15 @@ const Herosection = () => {
             </div>
         </section>
         <section>
-        <div className="md:flex hidden pt-44 gap-10 bg-blue-400 px-10 text-white  justify-center font-semibold  ">
+            <div className="md:flex hidden pt-44 gap-10 bg-blue-400 px-10 text-white  justify-center font-semibold  ">
                 <div className="w-80">
-                <h1 className="text-black text-4xl mb-2">A Clean House is a  Happy Place!</h1>
-                <p className="font-bold">Washla has met the demands of a growing  world.</p>
+                    <h1 className="text-black text-4xl mb-2">A Clean House is a  Happy Place!</h1>
+                    <p className="font-bold">Washla has met the demands of a growing  world.</p>
                 </div>
                 <div className="w-80">
-                    <h1>Washla customers have a tremendous opportunity to answer the call of logistic needs across the globe. Has 26 affiliated state soybean associations representing 30 soybean-producing states.</h1> 
+                    <h1>Washla customers have a tremendous opportunity to answer the call of logistic needs across the globe. Has 26 affiliated state soybean associations representing 30 soybean-producing states.</h1>
                 </div>
-                <div  className="w-80">
+                <div className="w-80">
                     <h1>World’s leading non-asset-based supply chain management companies, we design and implement industry-leading. We specialize in intelligent & effective search and believe in the power of partnerships to grow business.</h1>
                 </div>
             </div>

@@ -8,16 +8,16 @@ const Service = () => {
     return (<>
         <section >
             <div className="h-screen bg-cover bg-center relative md:block hidden" style={{ backgroundImage: `url(${service})` }}>
-            <div className="md:flex justify-center hidden ">
-                <div className="text-white text-center absolute top-[20%]">
-                    <p className="font-bold mb-3 text-xl">WHY CHOOSE US</p>
-                    <h1 className="text-black font-bold text-4xl mb-3">Our Great Service</h1>
-                    <p className="font-semibold ">Restoring the beauty and freshness of all your upholstered fabrics <br /> and take the wprk out of housework for you.</p>
+                <div className="md:flex justify-center hidden ">
+                    <div className="text-white text-center absolute top-[20%]">
+                        <p className="font-bold mb-3 text-xl">WHY CHOOSE US</p>
+                        <h1 className="text-black font-bold text-4xl mb-3">Our Great Service</h1>
+                        <p className="font-semibold ">Restoring the beauty and freshness of all your upholstered fabrics <br /> and take the wprk out of housework for you.</p>
+                    </div>
                 </div>
             </div>
-            </div>
-            
-            <div className="md:flex gap-10 justify-center md:absolute top-[350%] left-[10%] md:ml-0 ml-20 ">
+
+            <div className="md:flex gap-10 justify-center md:absolute top-[350%] left-[10%] md:ml-0 ml-10 ">
                 {
                     data.map(function (data, index) {
                         return (<>
@@ -30,9 +30,8 @@ const Service = () => {
                     })
                 }
             </div>
-            
-            </section>
-        
+        </section>
+
     </>)
 
 }

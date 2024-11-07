@@ -4,12 +4,12 @@ import { FaHandsWash } from "react-icons/fa";
 const Box = () => {
     const data =
         [
-            { image: <MdCleaningServices size={40} className="text-[#10B6EE]"  />, maintext: "Professional Cleaning", text: "Housekepping is responsible for minor security in hostel ecosystem for food and cleaning through." },
-            { image: <IoHomeOutline size={40}  className="text-[#10B6EE]"/>, maintext: "Fast and Efficient", text: "Our aim is to keep the house clean - your aim will help! the through digital innovation world summit" },
-            { image: <FaHandsWash size={40}  className="text-[#10B6EE]"/>, maintext: "Renew your look", text: "Both of us take a lot of time getting cleaned and beautified clean home.professional service" },
+            { image: <MdCleaningServices size={40} className="text-[#10B6EE]" />, maintext: "Professional Cleaning", text: "Housekepping is responsible for minor security in hostel ecosystem for food and cleaning through." },
+            { image: <IoHomeOutline size={40} className="text-[#10B6EE]" />, maintext: "Fast and Efficient", text: "Our aim is to keep the house clean - your aim will help! the through digital innovation world summit" },
+            { image: <FaHandsWash size={40} className="text-[#10B6EE]" />, maintext: "Renew your look", text: "Both of us take a lot of time getting cleaned and beautified clean home.professional service" },
         ]
     return (<>
-        <section className=" bg-blue-400 p-10">
+        <section className=" bg-blue-400 md:p-10">
             <div className=" p-10 md:flex gap-10 justify-center md:absolute md:top-[87%] top-[100%] left-[8%]">
                 {
                     data.map(function (data, index) {

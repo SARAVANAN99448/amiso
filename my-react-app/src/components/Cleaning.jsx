@@ -3,7 +3,7 @@ import { SiCcleaner } from "react-icons/si";
 import { MdCleaningServices } from "react-icons/md";
 const Cleaning = () => {
     return (<>
-        <section className="mt-10 px-10 ">
+        <section className="mt-10 md:px-10 ">
             <div className="md:flex relative">
                 <div className="md:w-1/2  md:flex justify-center ">
                     <img src={clean} alt="" className="w-full h-96 " />
@@ -22,14 +22,14 @@ const Cleaning = () => {
                     <div className="flex mt-10">
                         <div className="w-80">
                             <div className="">
-                            <i><SiCcleaner size={40} className="text-blue-700" /></i>
+                                <i><SiCcleaner size={40} className="text-blue-700" /></i>
                             </div>
                             <h1 className="text-2xl font-bold">Professional Cleaning</h1>
                             <p className="text-[#C1C1C1]">Housekeeping is responsible for minor security in hotel</p>
                         </div>
                         <div className="w-80">
                             <div className="">
-                            <i><MdCleaningServices size={40} className="text-blue-700"/></i>
+                                <i><MdCleaningServices size={40} className="text-blue-700" /></i>
                             </div>
                             <h1 className="text-2xl font-bold">Fast and Efficent</h1>
                             <p className="text-[#C1C1C1]">Both of us take a lot of time of getting cleaned clean home.</p>

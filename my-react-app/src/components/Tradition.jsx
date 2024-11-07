@@ -16,7 +16,7 @@ const Tradition = () => {
                 </div>
             </div>
         </section>
-        <Promise/>
+        <Promise />
     </>)
 
 }

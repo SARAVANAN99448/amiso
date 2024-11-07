@@ -43,7 +43,7 @@ const Footer = () => {
                         <input type="email" placeholder="Your email address" class="p-2 border border-gray-400 rounded-l w-full" />
                         <button className="bg-blue-600 text-white px-4 rounded-r">Sign Up</button>
                     </div>
-                </div>  
+                </div>
             </div>
             <div className="container mx-auto mt-6 border-t pt-4 text-center">
                 <p>© 2023 amiso all rights reserved.</p>

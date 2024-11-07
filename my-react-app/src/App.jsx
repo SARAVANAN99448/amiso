@@ -1,10 +1,8 @@
 import Box from "./components/box"
 import Callback from "./components/Callback"
 import Cleaning from "./components/Cleaning"
-import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Herosection from "./components/Herosection"
-import Navbar from "./components/Navbar"
 import Recentnews from "./components/Recentnews"
 import Service from "./components/Service"
 import Team from "./components/Team"
@@ -20,7 +18,7 @@ const App = () => {
     <Team />
     <Callback />
     <Recentnews />
-    <Footer/>
+    <Footer />
   </>)
 }
 export default App
